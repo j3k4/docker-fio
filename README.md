@@ -5,7 +5,7 @@ fio is IO benchmark docker image with fio cli
 
 To test the performance of the storage, just go in a folder that mounts the storage and run : 
 ```bash
-docker run -it --rm -v $PWD:/data infrabuilder/fio
+docker run -it --rm -v $PWD:/data j3k4/fio
 ```
 
 You will get the benchmark result in container output
